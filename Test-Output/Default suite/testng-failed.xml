@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.mindtree.TestCases.TC_FlatsInHadpsar">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="flatsinhadpsar"/>
+        </methods>
+      </class> <!-- com.mindtree.TestCases.TC_FlatsInHadpsar -->
+      <class name="com.mindtree.TestCases.TC_Carrers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="careers"/>
+        </methods>
+      </class> <!-- com.mindtree.TestCases.TC_Carrers -->
+      <class name="com.mindtree.TestCases.TC_SigninUp">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="signinUp"/>
+        </methods>
+      </class> <!-- com.mindtree.TestCases.TC_SigninUp -->
+      <class name="com.mindtree.TestCases.TC_AvoidBroker">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="avoidBroker"/>
+        </methods>
+      </class> <!-- com.mindtree.TestCases.TC_AvoidBroker -->
+      <class name="com.mindtree.TestCases.TC_PropertyOwner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="propertyownerS"/>
+        </methods>
+      </class> <!-- com.mindtree.TestCases.TC_PropertyOwner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
